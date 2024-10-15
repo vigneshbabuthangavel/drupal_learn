@@ -1,0 +1,19 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.card.field_image
+    - node.type.card
+id: node.card.field_image
+field_name: field_image
+entity_type: node
+bundle: card
+label: Image
+description: 'Image associated with the card.'
+required: false
+translatable: false
+default_value: { }
+default_value_callback: ''
+settings:
+  file_directory: 'images'  # Ensure to match the directory for storage
+field_type: image

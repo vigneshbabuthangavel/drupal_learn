@@ -1,0 +1,15 @@
+langcode: en
+status: true
+dependencies:
+  enforced:
+    module:
+      - migrate_json_card  # Ensure this module is available
+  module:
+    - menu_ui
+name: Card
+type: card
+description: 'Content type for displaying cards.'
+help: ''
+new_revision: true
+preview_mode: 1
+display_submitted: true

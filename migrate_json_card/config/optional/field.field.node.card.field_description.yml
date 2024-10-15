@@ -1,0 +1,18 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.card.field_description
+    - node.type.card
+id: node.card.field_description
+field_name: field_description
+entity_type: node
+bundle: card
+label: Description
+description: 'Description of the card.'
+required: false
+translatable: false
+default_value: { }
+default_value_callback: ''
+settings: { }
+field_type: string

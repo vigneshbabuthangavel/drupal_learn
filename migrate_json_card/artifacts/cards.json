@@ -1,0 +1,94 @@
+{
+  "card": [
+    {
+      "header": "VCE",
+      "description": "Study designs, VCE VM study designs, VCE examination timetable, VCE examinations and reports, Results, Professional learning.",
+      "colour": "green",
+      "image": "public://images/card1.png"
+    },
+    {
+      "header": "VET",
+      "description": "VCE examinations and reports, Results, Professional learning, Study designs, VCE VM study designs, VCE examination timetable.",
+      "colour": "blue",
+      "image": "public://images/card2.png"
+    },
+    {
+      "header": "VPC",
+      "description": "Professional learning, Results, Study designs, VCE examination timetable, VCE VM study designs, VCE examinations and reports.",
+      "colour": "teal",
+      "image": "public://images/card3.png"
+    },
+    {
+      "header": "F-10",
+      "description": "VCE VM study designs, Results, Study designs, VCE examination timetable, Professional learning, VCE examinations and reports.",
+      "colour": "orange",
+      "image": "public://images/card4.png"
+    },
+    {
+      "header": "Early years",
+      "description": "VCE examination timetable, Professional learning, Results, Study designs, VCE examinations and reports, VCE VM study designs.",
+      "colour": "red",
+      "image": "public://images/card5.png"
+    },
+    {
+      "header": "VCE",
+      "description": "Results, VCE examinations and reports, VCE VM study designs, VCE examination timetable, Study designs, Professional learning.",
+      "colour": "blue",
+      "image": "public://images/card6.png"
+    },
+    {
+      "header": "VET",
+      "description": "Study designs, VCE examination timetable, Professional learning, VCE VM study designs, Results, VCE examinations and reports.",
+      "colour": "green",
+      "image": "public://images/card7.png"
+    },
+    {
+      "header": "VPC",
+      "description": "Professional learning, VCE VM study designs, VCE examination timetable, Results, VCE examinations and reports, Study designs.",
+      "colour": "teal",
+      "image": "public://images/card8.png"
+    },
+    {
+      "header": "F-10",
+      "description": "VCE examinations and reports, VCE VM study designs, Study designs, Results, VCE examination timetable, Professional learning.",
+      "colour": "orange",
+      "image": "public://images/card9.png"
+    },
+    {
+      "header": "Early years",
+      "description": "Professional learning, VCE examination timetable, VCE VM study designs, VCE examinations and reports, Study designs, Results.",
+      "colour": "red",
+      "image": "public://images/card10.png"
+    },
+    {
+      "header": "VCE",
+      "description": "VCE examinations and reports, Results, Study designs, VCE VM study designs, VCE examination timetable, Professional learning.",
+      "colour": "blue",
+      "image": "public://images/card11.png"
+    },
+    {
+      "header": "VET",
+      "description": "VCE VM study designs, Study designs, Professional learning, Results, VCE examinations and reports, VCE examination timetable.",
+      "colour": "green",
+      "image": "public://images/card12.png"
+    },
+    {
+      "header": "VPC",
+      "description": "Results, Professional learning, VCE VM study designs, VCE examination timetable, VCE examinations and reports, Study designs.",
+      "colour": "teal",
+      "image": "public://images/card13.png"
+    },
+    {
+      "header": "F-10",
+      "description": "Study designs, Professional learning, VCE examination timetable, VCE VM study designs, VCE examinations and reports, Results.",
+      "colour": "orange",
+      "image": "public://images/card14.png"
+    },
+    {
+      "header": "Early years",
+      "description": "VCE examination timetable, Results, Professional learning, Study designs, VCE examinations and reports, VCE VM study designs.",
+      "colour": "red",
+      "image": "public://images/card15.png"
+    }
+  ]
+}

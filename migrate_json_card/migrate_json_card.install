@@ -1,0 +1,26 @@
+<?php
+
+declare(strict_types=1);
+
+use Drupal\Core\File\FileSystemInterface;
+
+/**
+ * Implements hook_install().
+ */
+function migrate_json_card_install(): void {
+
+  // Create the example file directory and ensure it's writable.
+  $directory = \Drupal::config('system.file')->get('default_scheme') . '://migrate_json_card';
+  \Drupal::service('file_system')->prepareDirectory($directory, FileSystemInterface::CREATE_DIRECTORY | FileSystemInterface::MODIFY_PERMISSIONS);
+
+  // Copy the example file to the example directory.
+  $module_path = \Drupal::moduleHandler()->getModule('migrate_json_card')->getPath();
+  $file_source = $module_path . '/artifacts/cards.json';
+
+  // Attempt to copy the file and handle errors.
+  try {
+    \Drupal::service('file_system')->copy($file_source, $directory . '/cards.json', FileSystemInterface::EXISTS_REPLACE);
+  } catch (\Exception $e) {
+    \Drupal::logger('migrate_json_card')->error('Error copying file: @message', ['@message' => $e->getMessage()]);
+  }
+}

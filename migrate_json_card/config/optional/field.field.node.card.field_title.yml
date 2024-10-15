@@ -1,0 +1,16 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.card.field_title
+id: field.field.node.card.field_title
+field_name: field_title
+entity_type: node
+bundle: card
+label: Title
+description: 'Title of the card.'
+required: false
+translatable: true
+settings:
+  max_length: 255
+  text_processing: 0

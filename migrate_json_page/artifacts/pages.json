@@ -1,0 +1,52 @@
+{
+  "page": [
+    {
+      "title": "About Us",
+      "body": "Information about our organization."
+    },
+    {
+      "title": "Contact Us",
+      "body": "How to get in touch with us."
+    },
+    {
+      "title": "Services",
+      "body": "Details of the services we offer to our clients."
+    },
+    {
+      "title": "FAQ",
+      "body": "Frequently asked questions and their answers."
+    },
+    {
+      "title": "Careers",
+      "body": "Explore job opportunities with us."
+    },
+    {
+      "title": "Blog",
+      "body": "Read the latest updates from our blog."
+    },
+    {
+      "title": "Privacy Policy",
+      "body": "Our commitment to safeguarding your privacy."
+    },
+    {
+      "title": "Terms and Conditions",
+      "body": "Terms governing the use of our website."
+    },
+    {
+      "title": "Testimonials",
+      "body": "See what our clients say about us."
+    },
+    {
+      "title": "Portfolio",
+      "body": "A showcase of our previous projects and work."
+    },
+    {
+      "title": "Team",
+      "body": "Meet the talented individuals behind our company."
+    },
+    {
+      "title": "Press",
+      "body": "Stay updated with the latest news and press releases."
+    }
+  ]
+}

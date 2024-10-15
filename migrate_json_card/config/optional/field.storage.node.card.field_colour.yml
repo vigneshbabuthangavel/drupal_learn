@@ -1,0 +1,21 @@
+# field.storage.node.card.field_colour.yml
+langcode: en
+status: true
+dependencies:
+  enforced:
+    module:
+      - migrate_json_example
+  module:
+    - node
+id: field.storage.node.card.field_colour  # This ID should match the configuration name
+field_name: field_colour
+entity_type: node
+type: string
+settings:
+  max_length: 50
+  is_ascii: false
+  case_sensitive: false
+module: core
+locked: false
+cardinality: 1
+translatable: true

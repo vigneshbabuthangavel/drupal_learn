@@ -1,0 +1,14 @@
+type: module
+name: Migrate JSON page Example
+description: 'Simple JSON Migration page example'
+package: Examples
+core_version_requirement: '>=9.1'
+dependencies:
+  - drupal:node
+  - drupal:paragraphs
+  - drupal:media
+  - drupal:migrate
+  - drupal:migrate_plus
+  - drupal:migrate_tools
+  - drupal:file
+  - drupal:field

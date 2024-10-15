@@ -1,0 +1,8 @@
+type: module
+name: Migrate JSON article Example
+description: 'Simple JSON Migration article example'
+package: Examples
+core_version_requirement: '>=9.1'
+dependencies:
+  - drupal:migrate
+  - migrate_plus:migrate_plus
