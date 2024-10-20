@@ -1,0 +1,33 @@
+{
+  "pages": [
+    {
+      "page_id": 100,
+      "title": "Test Page",
+      "body": "This is the body text for the test page.",
+      "components": [
+        {
+          "accordion": {
+            "accordion_id": 1,
+            "accordion_title": "Accordion Title",
+            "accordion_body": "Accordion body text here."
+          }
+        },
+        {
+          "card": {
+            "card_id": 1,
+            "card_title": "Card Title",
+            "card_image": "card_image.jpg",
+            "card_text": "This is some card text."
+          }
+        },
+        {
+          "text_with_image": {
+            "twi_id": 1,
+            "twi_text": "This is some text with an image.",
+            "twi_image": "twi_image.jpg"
+          }
+        }
+      ]
+    }
+  ]
+}
